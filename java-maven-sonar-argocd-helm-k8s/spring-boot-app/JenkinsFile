@@ -48,7 +48,7 @@ pipeline {
     stage("Deploy"){
             steps {
                 echo "Deploying the container"
-                sh "docker run -d -p 7373:7373 sachinhub1296/ultimate-cicd"
+                sh "docker run -d -p 7373:7373 sachinhub1296/ultimate-cicd:34"
                 
             }
         }
